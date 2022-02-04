@@ -11,7 +11,7 @@ index:
 	echo "<html>" > index.html
 	echo "<head>" >> index.html
 	echo "	<title>I2P News</title>" >> index.html
-	echo "	<link rel="stylesheet" href="/styles.css">" >> index.html
+	echo "	<link rel="stylesheet" href="/style.css">" >> index.html
 	echo "</head>" >> index.html
 	echo "<body>" >> index.html
 	pandoc -f markdown -t html README.md >> index.html
